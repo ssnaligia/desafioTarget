@@ -153,7 +153,8 @@ Arquivo: src/InverterString.java
 ###
 
 ```bash
- javac -cp ".;lib/json-simple-1.1.1.jar" src/*.java
+ javac -cp "src/json-simple-1.1.1.jar;src" src/NomeArquivo.java
+
 ```
 
 ###
@@ -164,7 +165,8 @@ Arquivo: src/InverterString.java
 
 
 ```bash
- java -cp ".;lib/json-simple-1.1.1.jar" src.NomeArquivo.java
+ java -cp "src/json-simple-1.1.1.jar;src" NomeArquivo
+
 ```
 
 ###
