@@ -152,6 +152,13 @@ Arquivo: src/InverterString.java
 
 ###
 
+
+```bash
+ javac NomeArquivo.java
+```
+
+OU
+
 ```bash
  javac -cp "src/json-simple-1.1.1.jar;src" src/NomeArquivo.java
 
@@ -163,6 +170,11 @@ Arquivo: src/InverterString.java
 
 ###
 
+```bash
+ java NomeArquivo
+```
+
+OU
 
 ```bash
  java -cp "src/json-simple-1.1.1.jar;src" NomeArquivo
